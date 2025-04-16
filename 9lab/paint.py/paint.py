@@ -2,8 +2,7 @@ import pygame
 # ены биыктыгы
 WIDTH, HEIGHT = 1200, 800  
 # фпс экран жанарту
-FPS = 90
-# Сурет салу режим           
+FPS = 9
 draw = False   
 # радиус карандаш
 radius = 2           
@@ -131,6 +130,9 @@ while True:
             # тус тандау
             if event.key == pygame.K_1: 
                 color = 'black'  
+
+            if event.key == pygame.K_6:
+                color = 'brown'
             if event.key == pygame.K_2: 
                 color = 'green'  
             if event.key == pygame.K_3: 

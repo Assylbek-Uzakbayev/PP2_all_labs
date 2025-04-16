@@ -177,8 +177,8 @@ def gameLoop():
             SPEED += 1  # Жылдамдык арттыру
             snake.grow()  # Змейканы улгайту
 
-        if snake.death():  # егер согтыгысп калсаа
-            score = 0  # 
+        if snake.death():  # егер согысы калса
+            score = 0   
             level = 0  # басынан басту
             font = pygame.font.SysFont(None, 100)  # Шрифт орнату
             text = font.render("Game Over!", True, defeat_colour) 
